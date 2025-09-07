@@ -1,0 +1,12 @@
+Source: ros-rolling-rtsp-image-transport
+Section: misc
+Priority: optional
+Maintainer: Timo Röhling <timo.roehling@fkie.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev, ros-rolling-ament-cmake, ros-rolling-cv-bridge, ros-rolling-image-transport, ros-rolling-live555-vendor, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rtsp-image-transport
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev, ros-rolling-cv-bridge, ros-rolling-image-transport, ros-rolling-live555-vendor, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-ros-workspace
+Description: Transmit video streams with the Real-Time Streaming Protocol
