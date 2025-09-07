@@ -1,0 +1,21 @@
+ros-rolling-rtsp-image-transport (2.0.1-1bookworm) bookworm; urgency=high
+
+  * Drop support for pre-Jazzy Waitable API
+  * Add ROS Kilted to CI
+  * Update links in README.rst for ROS 2
+  * Add preliminary AV1 support (once implemented in live555)
+  * Add popular aliases for codec names
+  * Rename parameter bit_rate to target_bitrate
+    (#2 <https://github.com/fkie/rtsp_image_transport/issues/2>)
+  * Contributors: Timo Röhling
+
+ -- Timo Röhling <timo.roehling@fkie.fraunhofer.de>  Tue, 29 Jul 2025 22:00:00 -0000
+
+ros-rolling-rtsp-image-transport (2.0.0-1bookworm) bookworm; urgency=high
+
+  * Initial ROS 2 port
+  * Contributors: Timo Röhling
+
+ -- Timo Röhling <timo.roehling@fkie.fraunhofer.de>  Tue, 03 Jun 2025 22:00:00 -0000
+
+
