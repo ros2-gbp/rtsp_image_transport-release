@@ -1,0 +1,12 @@
+Source: ros-jazzy-rtsp-image-transport
+Section: misc
+Priority: optional
+Maintainer: Timo Röhling <timo.roehling@fkie.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev, ros-jazzy-ament-cmake, ros-jazzy-cv-bridge, ros-jazzy-image-transport, ros-jazzy-live555-vendor, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-rtsp-image-transport
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev, ros-jazzy-cv-bridge, ros-jazzy-image-transport, ros-jazzy-live555-vendor, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros-workspace
+Description: Transmit video streams with the Real-Time Streaming Protocol
