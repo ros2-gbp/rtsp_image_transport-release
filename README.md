@@ -1,3 +1,26 @@
+## rtsp_image_transport (rolling) - 2.0.2-1
+
+The packages in the `rtsp_image_transport` repository were released into the `rolling` distro by running `/usr/bin/bloom-release -r rolling rtsp_image_transport` on `Mon, 25 May 2026 20:48:51 -0000`
+
+The `rtsp_image_transport` package was released.
+
+Version of package(s) in repository `rtsp_image_transport`:
+
+- upstream repository: https://github.com/fkie/rtsp_image_transport.git
+- release repository: https://github.com/ros2-gbp/rtsp_image_transport-release.git
+- rosdistro version: `2.0.1-2`
+- old version: `2.0.1-2`
+- new version: `2.0.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## rtsp_image_transport (lyrical) - 2.0.2-1
 
 The packages in the `rtsp_image_transport` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release -r lyrical rtsp_image_transport` on `Mon, 25 May 2026 20:48:03 -0000`
